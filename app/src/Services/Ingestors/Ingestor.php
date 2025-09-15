@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Services\Providers;
+namespace App\Services\Ingestors;
 
-use App\Services\Contracts\PriceProviderInterface;
 use App\Domain\Rates\CryptoPairs;
+use App\Services\Contracts\PriceProviderInterface;
 use Doctrine\ORM\EntityManagerInterface;
 use Psr\Log\LoggerInterface;
 
