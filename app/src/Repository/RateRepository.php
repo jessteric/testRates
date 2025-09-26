@@ -2,10 +2,10 @@
 
 namespace App\Repository;
 
+use App\Domain\Rates\CryptoPairs;
 use App\Entity\Rate;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
-use CryptoPairs;
 
 /** @extends ServiceEntityRepository<Rate> */
 class RateRepository extends ServiceEntityRepository

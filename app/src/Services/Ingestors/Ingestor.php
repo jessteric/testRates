@@ -17,7 +17,7 @@ readonly class Ingestor
 
     public function ingestAll(): void
     {
-        foreach (\CryptoPairs::all() as $pair) {
+        foreach (CryptoPairs::all() as $pair) {
             $this->ingestOne($pair);
         }
     }
